@@ -86,6 +86,15 @@ const data = [
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`,
   },
+  {
+    title: "WebDev lives matter",
+    date: "2020",
+    firstParagraph: `Full Stack Devs are AWESOME`,
+
+    secondParagraph: `We make lots of mistakes, and hope things work out.. then fix them`,
+
+    thirdParagraph: `lorem ipsum`,
+  },
 ];
 
 /* Step 1: Write a component called 'articleMaker' to create an article. You want your component to return markup like the template below: 

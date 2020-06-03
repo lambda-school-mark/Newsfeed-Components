@@ -65,8 +65,8 @@
 }
 .article .expandButton {
   position: absolute;
-  bottom: 0;
-  left: 50%;
+  top: 15px;
+  right: 0;
   font-size: 12px;
   color: black;
   cursor: pointer;
@@ -74,7 +74,7 @@
   background-color: white;
 }
 .article-open {
-  height: 400px;
+  height: 100%;
 }
 html,
 body {
