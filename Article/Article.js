@@ -95,6 +95,15 @@ const data = [
 
     thirdParagraph: `lorem ipsum`,
   },
+  {
+    title: "Nate is Awesome",
+    date: "2011",
+    firstParagraph: `Nate thinks Mark is awesome!!!!!`,
+
+    secondParagraph: `bla bla`,
+
+    thirdParagraph: `lorem ipsum`,
+  },
 ];
 
 /* Step 1: Write a component called 'articleMaker' to create an article. You want your component to return markup like the template below: 
@@ -122,9 +131,14 @@ const data = [
 
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new article.
 */
+
+//initiate component onto main class/div
 const articleClass = document.querySelector(".articles");
 
+//creating function that acts as the component
 function articleMaker(articleObj) {
+  //function takes in either object or aguments/object
+  //create all the elements needed for html
   const articleBody = document.createElement("div");
   const articleTitle = document.createElement("h2");
   const articleDate = document.createElement("p");
@@ -133,7 +147,8 @@ function articleMaker(articleObj) {
   const paragraph3 = document.createElement("p");
   const expandButton = document.createElement("span");
 
-  articleClass.appendChild(articleBody);
+  //add any classes you might need for the elements in html
+  articleClass.appendChild(articleBody); //this first one basically attaches it to the parent element in the actual html
   articleBody.appendChild(articleTitle);
   articleBody.appendChild(articleDate);
   articleBody.appendChild(paragraph1);

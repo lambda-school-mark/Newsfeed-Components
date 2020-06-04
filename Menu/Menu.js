@@ -43,11 +43,6 @@ function menuMaker(menuDataObj) {
 
   menu.classList.add("menu");
 
-  // menuDataObj.forEach((element) => {
-  //   const list = document.createElement("li");
-  //   unOrLi.append(list);
-  //   list.textContent = element;
-  // });
   menuDataObj.forEach((element) => {
     const list = document.createElement("li");
     unOrLi.append(list);
